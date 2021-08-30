@@ -1,6 +1,6 @@
 class Room < ApplicationRecord
 
-  validates :user, presence: true
+  validates :name, presence: true
 
 
   has_many :room_users
